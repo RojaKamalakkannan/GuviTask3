@@ -1,0 +1,281 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:rgb(36, 35, 35);
+    border:rgb(75, 71, 71);
+    
+    
+}
+.head{
+    border:1px solid black;
+    display: grid;
+    grid-auto-flow:column;
+    background-color:rgb(51, 47, 47);
+    
+    
+}
+.head1{
+    display:flex;
+    justify-content: flex-start;
+    gap:2em;
+    
+}
+.head2{
+    display:flex;
+    justify-content: center;
+    gap:3em;
+}
+.head3{
+    display:flex;
+    justify-content: flex-end;
+}
+.fb{
+    height:50px;
+    width:50px;
+    border-radius:50%
+}
+.search{
+    border-radius: 20px;
+    margin-top:10px;
+    height:30px;
+    width:150%;
+    background-color:grey;
+}
+.home1{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    margin-top: 10px;
+}
+.place{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    margin-top: 10px;
+    justify-content:start;
+}
+.people{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    margin-top: 10px;
+    justify-content:start;
+}
+.game{
+    height:30px;
+    width:30px;
+    
+    margin-top: 10px;
+    justify-content:start;
+}
+.head3{
+    justify-content:start;
+    gap:2%;
+}
+.profile{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    margin-top: 10px;
+    justify-content:start;
+}
+.name{
+    text-align:center;
+}
+.apps{
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    margin-top: 10px;
+    justify-content:start;
+}
+.notify{
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    margin-top: 10px;
+    justify-content:start;
+}
+.dropdown{
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    margin-top: 10px;
+    justify-content:start;
+}
+.guvifront{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    
+}
+.circle{
+    display: grid;
+    grid-auto-flow:column;
+    margin-left:30%;
+    border-radius: 150%;
+    width:100px;
+    height:100px;
+    display:inline;
+    text-decoration-color: snow;
+    
+}
+.circ{
+    display:grid;
+    grid-auto-flow:column;
+    margin-top:30px;
+    gap:2em;
+    margin-left:20%;
+
+}
+.butt{
+    background-color:rgb(9, 9, 247);
+    width:200px;
+    border:none;
+    height:30px;
+    border-radius:5px;
+    
+}
+
+.small1{
+    margin-left:29%;
+  
+}
+.line{
+    margin-left:10%;
+}
+.text1{
+    display:grid;
+    grid-auto-flow:column;
+    justify-content:flex-start;
+    margin-left:28%;
+    gap:2em;
+}
+.button{
+    display:grid;
+    grid-auto-flow:column;
+    margin-left:40px;
+    height:10px;
+    gap:1em;
+    margin-top:5px;
+    
+}
+.about{
+    display:grid;
+    background-color: #353536;
+    margin-left: 28%;
+    padding:0.7em;
+    width: 300px;
+    height: 230px;
+    grid-auto-flow: column;
+    float :left;
+    border: none;
+    border-radius: 6px;
+}
+.pro{
+    display:grid;
+    background-color: #353536;
+    margin-left:2em;
+    padding:0.7em;
+    width: 350px;
+    height: 100px;
+    grid-auto-flow:row;
+    float :left;
+    border: none;
+    border-radius: 5px;
+    
+}
+.cir{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    margin-top: 12px;
+    justify-content:start;
+
+}
+.pro1{
+    display:grid;
+    background-color: #353536;
+    margin-left:2em;
+    padding:0.7em;
+    width: 350px;
+    height: 80px;
+    grid-auto-flow: row;
+    float :left;
+    border: none;
+    margin-top:15px;
+    border-radius:5px;
+}
+.cir1{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    margin-top: 10px;
+    justify-content:start;
+}
+.Post{
+    height:30px;
+    width:300px;
+    background-color:grey;
+    border-radius:2px;
+    border:none;
+    margin-top: -37px;
+    margin-left:35px;
+}
+.content{
+    margin-right:30px;
+}
+.icon{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    margin-top: 10px;
+    justify-content:start;
+}
+.column{
+    display:grid;
+    grid-auto-flow:column;
+    gap:7em;
+    height:50px;
+}
+.element{
+    margin-top:-10px;
+}
+.photovideo{
+    width:20px;
+    height:20px;
+}
+.pv{
+    margin-top:-25px;
+    margin-left:30px;
+}
+.loc{
+    height:20px;
+    width:20px;
+    margin-top:-31px;
+    margin-left:120px;
+}
+.ch{
+    margin-top:-36px;
+    margin-left:148px;
+}
+.tag{
+    height:20px;
+    width:20px;
+    margin-top:-40px;
+    margin-left:220px;
+}
+.tg{
+    margin-top:-45px;
+    margin-left:250px;
+}
+.white
+{
+    margin-top:-24px;
+    margin-left:40px;
+}
+.dec
+{
+    margin-top:-20px;
+}
